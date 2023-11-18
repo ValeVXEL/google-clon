@@ -1,0 +1,14 @@
+body{
+    background-color: cadetblue;
+}
+#Lupa {
+    color: rgb(123, 122, 122);
+}
+.Icono {
+  
+    width: 30px;
+    height: 30px;
+}
+li{
+float: left;
+}
