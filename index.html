@@ -10,21 +10,28 @@
 
 <body>
     <header>
-        <a href="https://mail.google.com/mail/?authuser=0&ogbl" target="_blank" rel="noopener noreferrer">Gmail</a>
-        <a href="https://www.google.com/imghp?hl=es-419&authuser=0&ogbl" target="_blank"
-            rel="noopener noreferrer">Imágenes</a>
-        <div id="Cuadro" class="Icono">
-            <svg class="gb_i" focusable="false" viewBox="0 0 24 24">
-                <path
-                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
-                </path>
-                <image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24"
-                    style="border:none;display:none \9"></image>
-            </svg>
-        </div>
-        <img src="assest/Perfil.jpg" alt="Foto de perfil">
+        <ul>
+            <li><a href="https://mail.google.com/mail/?authuser=0&ogbl" target="_blank"
+                    rel="noopener noreferrer">Gmail</a></li>
+            <li> <a href="https://www.google.com/imghp?hl=es-419&authuser=0&ogbl" target="_blank"
+                    rel="noopener noreferrer">Imágenes</a></li>
+            <li>
+                <div id="Cuadro" class="Icono">
+                    <svg class="gb_i" focusable="false" viewBox="0 0 24 24">
+                        <path
+                            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                        </path>
+                        <image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24"
+                            style="border:none;display:none \9"></image>
+                    </svg>
+                </div>
+            </li>
+            <li><img src="assest/Perfil.jpg" alt="Foto de perfil"></li>
+        </ul>
     </header>
     <main>
+        <img src="assest/Logo.png" alt="Logo Google">
+       <div id="caja-buscador">
         <div id="Lupa" class="Icono">
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -63,15 +70,19 @@
                 </g>
             </svg>
         </div>
-        <button>Buscar con Google</button>
-        <button>Voy a tener suerte</button>
-
-
+        </div>
+        <div style="flex">
+            <button>Buscar con Google</button>
+            <button>Voy a tener suerte</button>
+        </div>
+        
+    
     </main>
     <footer>
         <ul>
             <li> México</li>
         </ul>
+       <div id="opciones">
         <ul>
             <li> <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1"
                     target="_blank" rel="noopener noreferrer">Sobre Google</a></li>
@@ -87,9 +98,11 @@
         <ul>
             <li> <a href="https://policies.google.com/privacy?hl=es-419&fg=1" target="_blank"
                     rel="noopener noreferrer">Privacidad</a></li>
-            <li> <a href="https://policies.google.com/terms?hl=es-419&fg=1" target="_blank" rel="noopener noreferrer">Condiciones</a></li>
+            <li> <a href="https://policies.google.com/terms?hl=es-419&fg=1" target="_blank"
+                    rel="noopener noreferrer">Condiciones</a></li>
             <li>Preferencias</li>
         </ul>
+       </div>
     </footer>
 </body>
 
